@@ -10,7 +10,7 @@
 
 @interface LNTabContainerViewController : UIViewController
 
-- (void)loadViewIdentifier:(NSString *)idenfifier forTab:(NSUInteger)tab;
+- (void)loadViewWithIdentifier:(NSString *)idenfifier forTab:(NSUInteger)tab;
 - (void)showTab:(NSUInteger)tab;
 
 @end

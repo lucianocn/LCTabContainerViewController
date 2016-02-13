@@ -24,7 +24,7 @@
     self.viewControllersByIdentifier = [NSMutableDictionary dictionary];
 }
 
-- (void)loadViewIdentifier:(NSString *)idenfifier forTab:(NSUInteger)tab
+- (void)loadViewWithIdentifier:(NSString *)idenfifier forTab:(NSUInteger)tab
 {
     UIViewController *viewController = [self.storyboard instantiateViewControllerWithIdentifier:idenfifier];
     [viewController view];
